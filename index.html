@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <title>جحيم سان أندرياس</title>
+  <style>
+    body {
+      font-family: 'Tajawal', sans-serif;
+      background-color: #0d0d0d;
+      color: #ff4444;
+      text-align: center;
+      padding: 30px;
+    }
+    h1 {
+      font-size: 40px;
+      color: #ff0000;
+      text-shadow: 0 0 10px #ff0000aa;
+    }
+    p {
+      color: #bbbbbb;
+      font-size: 18px;
+    }
+    .mod-list {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+    .mod {
+      background-color: #1a1a1a;
+      padding: 20px;
+      border-radius: 15px;
+      box-shadow: 0 0 15px #ff000055;
+      border: 1px solid #ff4444;
+    }
+    .mod h2 {
+      color: #ff4444;
+      font-size: 24px;
+    }
+    .mod p {
+      margin: 10px 0;
+    }
+    .btn {
+      background-color: #ff4444;
+      color: #fff;
+      padding: 10px 25px;
+      text-decoration: none;
+      border-radius: 10px;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+    .btn:hover {
+      background-color: #ff2222;
+    }
+    .logo {
+      width: 250px;
+      margin-bottom: 20px;
+      display: block;
+      margin: 0 auto;
+    }
+    input, textarea {
+      background-color: #1a1a1a;
+      border: 1px solid #ff4444;
+      color: white;
+      border-radius: 8px;
+    }
+  </style>
+</head>
+<body>
+
+  <img src="logo.png" class="logo" alt="شعار جحيم سان أندرياس">
+  <h1>🔥 جحيم سان أندرياس 🔥</h1>
+  <p>أقوى المودات في عالم GTA SA، كلها هنا في الجحيم</p>
+
+  <div class="mod-list">
+
+    <div class="mod">
+      <h2>🚗 مود السيارات الواقعية</h2>
+      <p>حول الشوارع إلى معرض سيارات خارق</p>
+      <a href="#" class="btn">تحميل</a>
+    </div>
+
+    <div class="mod">
+      <h2>🌆 مود الجرافيك العالي</h2>
+      <p>جرافيك أسطوري يحوّل اللعبة لجيل جديد</p>
+      <a href="#" class="btn">تحميل</a>
+    </div>
+
+    <div class="mod">
+      <h2>💀 مود الحياة الواقعية</h2>
+      <p>كل شي يتغير: الشوارع، الشخصيات، والمهام!</p>
+      <a href="#" class="btn">تحميل</a>
+    </div>
+
+  </div>
+
+  <hr style="margin: 50px auto; border-color: #ff4444; width: 60%;">
+  <h2 style="color:#ff4444;">📬 تواصل معنا واطلب مودك الخاص</h2>
+  <p>اكتب نوع المود اللي تحلم تضيفه، ونحن ننفذه لك 🔥</p>
+  <form action="https://formspree.io/f/mwkdvlzy" method="POST" style="max-width: 600px; margin: 0 auto; text-align: right;">
+    <label for="name">الاسم:</label><br>
+    <input type="text" name="name" required style="width: 100%; padding: 10px; margin-bottom: 10px;"><br>
+
+    <label for="email">البريد الإلكتروني:</label><br>
+    <input type="email" name="email" required style="width: 100%; padding: 10px; margin-bottom: 10px;"><br>
+
+    <label for="message">وصف المود:</label><br>
+    <textarea name="message" rows="5" required style="width: 100%; padding: 10px;"></textarea><br><br>
+
+    <button type="submit" class="btn">إرسال الطلب</button>
+  </form>
+
+</body>
+</html>
